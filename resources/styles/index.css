@@ -1,0 +1,263 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+  font-display: swap;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bebas-neue-v9-latin-regular.eot");
+  src: url("../fonts/bebas-neue-v9-latin-regular.woff2") format("woff2"), url("../fonts/bebas-neue-v9-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v30-latin-300.eot");
+  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"), url("../fonts/roboto-v30-latin-300.woff") format("woff");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li::marker {
+  color: #6FCFFB;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  width: 95%;
+  padding: 0 10px;
+}
+
+.currency {
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  line-height: 28px;
+  color: #181818;
+  vertical-align: top;
+  right: 90px;
+}
+
+.quantity {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.08em;
+  color: #000000;
+}
+
+.hr {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  color: #000000;
+}
+
+.services {
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.dark-gray {
+  fill: #181818;
+}
+
+.list__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.list__item:last-child {
+  margin: 0px;
+}
+
+.btn {
+  padding: 20px 50px;
+  background: #6FCFFB;
+  border-radius: 30px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.discount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #A9A9A9;
+}
+
+.svg__pink {
+  fill: #FD8D7B;
+  position: relative;
+  left: 60px;
+}
+
+.button {
+  background-color: #FD8D7B;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+  left: 15px;
+  bottom: 7px;
+}
+
+.price {
+  background-color: #9789F9;
+  width: 100%;
+  height: 100%;
+}
+.price__body {
+  padding: 32px 0px 52px 0px;
+}
+.price__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.price-card {
+  max-width: 370px;
+  width: 100%;
+  background-color: #F5F3F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 60px 0px 60px;
+}
+.price-card__popular {
+  position: relative;
+  left: 120px;
+  top: -10px;
+  display: none;
+}
+.price-card__header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.price-card__header_cost {
+  margin-bottom: 15px;
+}
+.price-card__header_service {
+  text-align: center;
+}
+.price-card__img {
+  margin-bottom: 25px;
+}
+.price-card__list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.price-card__btn {
+  position: relative;
+  top: 29px;
+}
+.price-card__discount {
+  display: none;
+  padding-bottom: 14px;
+}
+.price-card__included {
+  width: 148%;
+  background-color: #ffffff;
+  padding: 20px 0px 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-card:hover .price-card__popular {
+  display: block;
+}
+
+.price-card:hover .price-card__discount {
+  display: block;
+}
+
+.price-card:hover .btn {
+  background-color: #FD8D7B;
+}
+
+.price-card:hover .price-card__btn {
+  position: relative;
+  top: -25px;
+}
+
+.price-card:hover li::marker {
+  color: #FD8D7B;
+}
